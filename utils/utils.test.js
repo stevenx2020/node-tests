@@ -8,5 +8,6 @@ it("should add two number", () => {
 
 it("should sqare a number", () => {
     let res = utils.square(15);
+    
     expect(res).toBe(225);
 })
